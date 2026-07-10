@@ -1,0 +1,161 @@
+body {
+background-color:rgb(0, 0, 0);
+color: rgb(253, 252, 252);
+}
+
+a {
+text-decoration: none;
+display: inline-block;
+color: black;
+}
+.NavLinks {
+display: inline-block;
+color: rgb(148, 13, 13);
+margin: 3px 20px;
+}
+
+header {
+background-image: url("image/TheMainlogo.jpg");
+background-position-x: center;
+background-size: cover;
+background-repeat: no-repeat;
+width: 1400px;
+height: 300px;
+color: rgb(30, 30, 126);
+padding: 5px 30px;
+    
+}
+
+nav {
+text-align: start;
+padding-top: 200px;
+color: white;
+margin-left: 20px;
+}
+
+.TheCombany {
+background-color: gray;
+color: black;
+text-align: center;
+font-size: 32px;
+/* border: solid rgb(30, 39, 142) 5px; */
+display: block;
+}
+
+.cars {
+display: flex;
+flex-direction: row;
+gap: 50px;
+}
+
+.car1 {
+ background-image: url("image/Sealion7.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+width: 400px;
+height: 200px;    
+margin : 10px 0 0 50px;
+display: inline-block;
+color: #516f97;
+}
+.car4 {
+ background-image: url("image/i8.jfif");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+width: 400px;
+height: 200px;    
+margin : 10px 0 0 50px;
+display: inline-block;
+color: #516f97;
+}
+
+.car2 {
+background-image: url("image/YangWangU9.jfif");
+width: 400px;
+height: 200px;
+background-size: cover;
+margin: 10px 0px 0px 10px ;
+display: inline-block;
+color: #e3062a;
+} 
+
+.car5 {
+background-image: url("image/m8.jpg");
+width: 400px;
+height: 200px;
+background-size: cover;
+margin: 10px 0px 0px 10px ;
+display: inline-block;
+color: black;
+}
+
+.car3 {
+background-image: url("image/YangWangU7.jfif");
+width: 400px;
+height: 200px;
+background-size: cover;
+margin: -10px 0px 0px 10px ;
+display: block;
+color: #923813;
+}
+
+.CarInfo {
+padding-left: 10px;
+}
+
+.CarsName1,
+.CarsName4,
+.CarsName5,
+.CarsName6,
+.CarsName2,
+.CarsName3 {
+display: block;
+text-align: center;
+font-weight: bold;
+}
+
+.car4,
+.car5 {
+margin-top: -10px;
+}
+
+.CarsName1 {
+margin-top: -7px;
+}
+
+.CarsName2 {
+margin-top: -8px;
+}
+
+.CarsName6 {
+padding-top: 10px;
+}
+
+.car6 {
+background-image: url("image/z4.jfif");   
+display: inline-block;
+background-size: cover;
+width: 400px;
+height: 200px;
+margin: -10px 0px 0px 10px ;
+}
+
+footer{
+margin-top: 46px;
+background-color: gray;
+color: white;
+text-align: center;
+justify-content: center;
+height: 45px;
+display: flex;
+/* border: solid rgb(30, 39, 142) 5px; */
+}
+
+.ToContact {
+width: 25px;
+height: 25px;
+display: inline;
+padding:  10px;
+}
